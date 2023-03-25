@@ -1,0 +1,15 @@
+Comparison operators compare two values and give back a boolean value: either true or false. Comparison operators are used in decision making and loops.
+
+
+And Or operator 
+
+let age = 16
+let myName = "saurabh";
+
+if(myName[0] === "s" || age>18){
+    console.log("inside if");
+}
+else {
+    console.log("inside else");
+}
+
