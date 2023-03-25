@@ -1,0 +1,6 @@
+A ternary operator evaluates a condition and executes a block of code based on the condition.
+
+
+let age = 18
+let drink = (age>=20) ? "coffee" : "milk";
+console.log(drink);
