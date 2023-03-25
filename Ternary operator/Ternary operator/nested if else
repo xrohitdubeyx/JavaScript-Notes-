@@ -1,0 +1,21 @@
+Embedding If Statement inside another IF Statement called JavaScript Nested If Statement. 
+The JavaScript Else Statement allows us to print different statements depending upon the expression result (TRUE, FALSE).
+Sometimes we have to check even further when the condition is TRUE.
+In this situation, we can use the Nested IF statement, but be careful while using it.
+
+nested if else 
+
+let winNumber = 26  
+let guessNumber = prompt("guess a number");
+
+if(guessNumber == winNumber){
+    console.log("your guess is right");
+}
+else{
+    if(guessNumber > winNumber){
+        console.log("your guess is too hight");
+    }
+    else{
+        console.log("your guess is too low");
+    }
+}
